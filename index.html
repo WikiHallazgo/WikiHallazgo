@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" href="./CSS estilos/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Js Scrips/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Captura.PNG" type="image/x-icon">
+    <title>WikiHallazgo</title>
+</head>
+<body>
+  <img class="logo01" src="./img/Captura.PNG" alt="Logo_WikiHallazgo">
+  <img class="logo02" src="./img/escudo.png" alt="Logo_WikiHallazgo">
+  <header>
+    <h1 class="header_1">WikiHallazgo</h1> 
+  </header>
+    <div class= "container-fluid busqueda">
+        <div class="col-sm-5">
+        <span class="h4_title">Buscar un término en Wikipedia:</span><input placeholder="Ingresa una referencia." type="text"  name="Search a term">
+         <button class="btn" type="button" onclick="searchWiki()">Buscar</button>
+         </div>
+          <div class="col-sm-5">
+         <span class="h4_title">Entrada aleatoria de Wikipedia:</span><button class="btn-primary"type="button" onclick="getRandom()">Pagina Aleatoria</button>
+        </div>
+
+         <div class="col-sm-2">
+            </div>
+        </div>
+          <div class="container">
+            <div class="column col-sm-4">
+              <h2 class="links01">Resultados</h2>
+            </div>
+            <div class="column col-sm-4">
+              <h2></h2>
+            </div>
+            <div class="column col-sm-4">
+              <h2 class="links01">Links</h2>
+            </div>
+          </div>
+        
+       
+       <div class= "container-fluid container-fluid2">
+         <div class="row resultados">
+           <div class="col-sm-4">
+         <h2 class="resultado"></h2>
+           </div>
+           <div class="col-sm-4">
+         <h3 class="descripcion"> </h3>
+       </div>
+       <div class="col-sm-4">
+         <p class="link"></p>
+       </div>
+         </div>
+       
+       </div>    
+</body>
+</html>
